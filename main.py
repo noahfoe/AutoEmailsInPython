@@ -5,10 +5,6 @@ date = datetime.datetime.today()
 date = date.strftime("%m/%d/%y")
 to_email = "WHO YOU WANT SEND EMAIL TO"
 
-# Add your email login here
-from_email = "YOUR EMAIL"
-password = "YOUR PASSWORD"
-
 # Add your subject line and body of the message here
 subject = "Assembly Language - YOUR NAME - I participated in class today on " + date
 message = "I participated in class today.\n \n Thanks, \n YOUR NAME"
