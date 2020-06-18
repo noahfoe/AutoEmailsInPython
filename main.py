@@ -3,15 +3,14 @@ import datetime
 
 date = datetime.datetime.today()
 date = date.strftime("%m/%d/%y")
-to_email = "WHO YOU WANT SEND EMAIL TO"
+# Add who you want to send the email to
+to_email = "example@outlook.com"
 
 # Add your subject line and body of the message here
 subject = "Assembly Language - YOUR NAME - I participated in class today on " + date
 message = "I participated in class today.\n \n Thanks, \n YOUR NAME"
 
-# Function that sends email
-
-
+# Function that sends the email
 def sendEmail(to_email, subject, message):
     try:
         print("start try")
